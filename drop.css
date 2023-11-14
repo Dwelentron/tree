@@ -1,0 +1,21 @@
+.nav ul li a:hover{
+    color: rgb(191, 191, 221);
+    text-decoration: underline;
+    background-color: black;
+}
+.nav ul li:hover .dmenu ul{
+    display: block;
+    background-color: rgb(93, 100, 82);
+    position: absolute;
+}
+.nav ul li:hover .dmenu ul li{
+    display: block;  
+}
+.nav ul li:hover .dmenu ul li a{
+    color: blue;
+}
+.nav ul li:hover .dmenu ul li a:hover{
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
